@@ -13,7 +13,7 @@ const Header = () => {
             <NavLink to='/'>
             <img src="./shop.png" alt="" className="w-8"/>
             </NavLink>
-          <h1 className="text-2xl font-bold">Shopping Cart</h1>  
+          <h1 className="lg:text-2xl font-bold text-lg">Shopping Cart</h1>  
         </div>
       
       <div className="flex items-center gap-2">
