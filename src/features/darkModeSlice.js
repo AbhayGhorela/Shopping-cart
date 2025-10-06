@@ -12,7 +12,7 @@ const savedTheme = ()=>{
     }
 }
 
-const initialState = savedTheme|| {
+const initialState = savedTheme() || {
     themeMode:'light'
 }
 
