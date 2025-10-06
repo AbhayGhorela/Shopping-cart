@@ -13,7 +13,7 @@ const Cart = () => {
 
 
   if(cartItems.length === 0){
-    return <div className="w-full h-screen flex justify-center items-center font-semibold text-4xl uppercase dark:bg-gray-900 dark:text-white">Your cart is empty</div>
+    return <div className="w-full h-screen flex justify-center items-center font-semibold text-4xl uppercase text-center dark:bg-gray-900 dark:text-white">Your cart is empty</div>
   }
   
   return (
